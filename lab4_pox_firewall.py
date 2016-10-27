@@ -1,8 +1,3 @@
-'''
-Udacity: ud436/sdn-firewall
-Professor: Nick Feamster
-'''
-
 from pox.core import core
 import pox.openflow.libopenflow_01 as of
 from pox.lib.revent import *
@@ -14,7 +9,7 @@ from csv import DictReader
 
 
 log = core.getLogger()
-policyFile = "/home/mininet/MIS307/Lab4/firewall-policies.csv" 
+policyFile = "./firewall-policies.csv" 
 
 # Add your global variables here ...
 
